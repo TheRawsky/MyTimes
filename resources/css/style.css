@@ -1,0 +1,120 @@
+@charset "UTF-8";
+/* CSS Document */
+div {
+	/*border: solid black 1px;*/
+}
+
+body {
+	margin: 0px;
+}
+.header {
+	  background-color: white;
+	  display: flex;
+	  font-family: Verdana;
+      font-size: 14px;
+      font-weight: bold;
+	  border-bottom: solid black 1px;
+	  align-items: center;
+	  position: fixed;
+	  height: 80px;
+	  width: 100%;
+}	
+
+.logo {
+	display: flex;
+	color: aquamarine;
+	padding-left: 30px;
+	align-items: center;
+	flex-grow: 1;	
+}
+
+.logo img {
+	margin-right: 12px;
+}
+.navigation {
+	padding-right: 40px;
+}
+.navigation span {
+	display: inline-block;
+	padding: 20px 10px;
+}
+.navigation a {
+	color: black;
+}
+
+.content {
+	display: flex;
+	padding-top: 116px;
+	width: 1232px;
+	margin: 0px auto 78px auto;
+	
+	
+}
+.column {
+	display: flex;
+	flex-direction: column;
+	margin-right: 32px;
+}
+.column.large {
+	width: 630px;
+}
+
+.column.medium {
+	width: 300px;
+}
+
+.column.small {
+	width: 240px;
+}
+
+.picture {
+	display: flex;
+	height: 300px;
+	text-align: center;
+}
+
+.picture span {
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+  justify-content: center;
+	
+}
+.picture.mainstory span {
+  font-size: 40px;
+  margin-left: 20px;
+  text-align: left;
+}
+.picture.mainstory {
+	background-image:url(../images/img-story-main.png);
+}
+.picture.earth {
+	background-image: url(../images/img-story-2.png);
+	display: flex;
+    
+	
+}
+.picture.research {
+	background-image:url(../images/img-story-3.png)
+}
+
+.text p {
+  font-family: Georgia;
+  font-size: 17px;
+  color: black;
+}
+
+.picture.cats {
+background-image:url(../images/img-story-1.png)}
+
+.picture.earth span {
+	text-align: center;
+	justify-content: center;
+}
+
+.earthpicturecontent {
+	display: flex;
+	text-align: center;
+	justify-content: center;
+}
